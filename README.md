@@ -24,30 +24,22 @@ The following **optional** features are implemented:
 
 - [x] The web app displays items in a unique format, such as cards rather than lists
 
-The following **additional** features are implemented:
-
-- [ ] List anything else that you added to improve the site's functionality!
-
 ## Video Walkthrough
 
 \*\*Note: please be sure to
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 
-GIF created with ... Add GIF tool here
+GIF created with [Kap](https://getkap.co/) for macOS
 
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
-
-## Notes
-
-Describe any challenges encountered while building the app or any additional context you'd like to add.
 
 ## License
 
