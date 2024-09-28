@@ -14,7 +14,11 @@ router.get("/", (req, res) => {
 });
 
 router.get("/:winnerId", (req, res) => {
-  res.status(200).sendFile(path.resolve(__dirname, "../public/winner.html"));
+  res
+    .status(200)
+    .sendFile(
+      path.resolve("/Users/maxlopez/repos/listicle/client/public/winner.html")
+    );
 });
 
 export default router;
