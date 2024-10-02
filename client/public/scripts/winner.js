@@ -7,10 +7,10 @@ const renderWinner = async () => {
   let winner;
   winner = data.find((winner) => winner.id === requestedID);
   if (winner) {
-    document.getElementById("image").src = winner.imageUrl;
-    document.getElementById("name").textContent = winner.teamName;
+    document.getElementById("image").src = winner.imageurl;
+    document.getElementById("name").textContent = winner.teamname;
     document.getElementById("tournament-name").textContent =
-      "Tournament: " + winner.tournamentName;
+      "Tournament: " + winner.tournamentname;
 
     document.getElementById("roster").textContent =
       "Roster: " + winner.roster.join(", ");
@@ -20,7 +20,7 @@ const renderWinner = async () => {
       day: "numeric",
     });
     document.getElementById("date").textContent = formattedDate;
-    document.title = `Team - ${winner.teamName}`;
+    document.title = `Team - ${winner.teamname}`;
   } else {
     const message = document.createElement("h2");
     message.textContent = "No Winners Available 😞";

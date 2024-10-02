@@ -8,6 +8,7 @@ const renderWinners = async () => {
 
   if (data) {
     data.map((winner) => {
+      console.log(winner);
       const card = document.createElement("article");
 
       // Card styles
@@ -30,7 +31,7 @@ const renderWinners = async () => {
       const topContainer = document.createElement("header");
       topContainer.style.position = "relative";
       topContainer.style.height = "300px";
-      topContainer.style.backgroundImage = `url(${winner.imageUrl})`;
+      topContainer.style.backgroundImage = `url(${winner.imageurl})`;
       topContainer.style.backgroundSize = "cover";
       topContainer.style.backgroundPosition = "center";
       topContainer.style.borderBottom = "5px solid #f4f4f4";
@@ -47,7 +48,7 @@ const renderWinners = async () => {
       imageOverlay.style.alignItems = "center";
 
       const teamName = document.createElement("h2");
-      teamName.textContent = winner.teamName;
+      teamName.textContent = winner.teamname;
       teamName.style.color = "#fff";
       teamName.style.fontSize = "24px";
       teamName.style.fontWeight = "bold";
@@ -67,7 +68,7 @@ const renderWinners = async () => {
       bottomContainer.style.justifyContent = "space-between";
 
       const tournamentName = document.createElement("p");
-      tournamentName.textContent = "Tournament: " + winner.tournamentName;
+      tournamentName.textContent = "Tournament: " + winner.tournamentname;
       tournamentName.style.margin = "0 0 10px";
       tournamentName.style.color = "#333";
       tournamentName.style.fontSize = "16px";
