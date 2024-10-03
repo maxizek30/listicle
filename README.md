@@ -1,4 +1,4 @@
-# WEB103 Project 2 - _Name of App Here_
+# WEB103 Project 2 - Valorant Champions
 
 Submitted by: **Max Lopez**
 
